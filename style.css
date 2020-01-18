@@ -51,6 +51,11 @@ img {
   margin-right: auto;
   width: 50%;
 }
+.mobile_map .root_daum_roughmap {
+  width:80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*
 선택자는 우선순위가 있다. id선택자> class 선택자 > 테그 선택자, 동일한 선택자에서는
    나중에 적은 선택자가 우선하다. id선택자는 딱 한번만 써야 함(중복금지) = 구체적인 것이 우선한다
