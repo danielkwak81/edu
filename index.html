@@ -2,8 +2,9 @@
 <html> <!-- 최고위층 테크-->
 <head>
   <!-- 본문을 설명 -->
-  <title>WEB1 - Welcome</title>
+  <title>EDU - Welcome</title>
   <meta charset='utf-8'>
+  <link rel="stylesheet" href="style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156269513-1"></script>
   <script>
@@ -16,37 +17,39 @@
 </head>
 <body>
   <!-- 아래부터 본문 -->
-  <h1><a href='index.html'>WEB</a></h1>
-  <ol>
-    <li><a href='1.html'>HTML</a></li>
-    <li><a href='2.html'>CSS</a></li>
-    <li><a href='3.html'>JavaScript</a></li>
-    <li><a href='HongganLab.html'>Honggan</a></li>
-
-  </ol>
-
-  <!-- # 부모 ul 테그는 반드시 자식 li 테그를 갖는다.(반대도 동일)
-  # ul은 점, ol은 번호 목록번호
-  # l=list, ol=ordered list, ul=unodered list
-  # table은 3대가 가치 다님: table, tr, td>
-  -->
-
-  <h2>WEB</h2> <!-- UTF-8형식 -->
-  <p>
-    The <strong><u>World Wide Web (WWW)</u></strong>, commonly known as the Web, is an information system where
-    documents and other web resources are identified by Uniform Resource Locators
-    (URLs, such as <a href='https://www.example.com/' target='_blank' title='example domain'>
-    https://www.example.com/</a>), which may be interlinked by hypertext,
-    and are accessible over the Internet. The resources of the WWW are transfered
-    via the <strong>Hypertext Transfer Protocol (HTTP)</strong> and may be accessed by users by a software
-    application called a web browser and are published by a software application called a web server.
-  </p><p style="margin-top:20px;">
-    English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first
-    web browser in 1990 while employed at CERN near Geneva, Switzerland.
-    The browser was released outside CERN in 1991, first to other research institutions
-    starting in January 1991 and then to the general public in August 1991. The World Wide
-    Web has been central to the development of the Information Age and is the primary tool
-    billions of people use to interact on the Internet.
-  </p>
+  <h5> 교육정보 전문기업</h5>
+  <h1><a href='index.html'>이것이 교육이다</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href='1.html'>교육정보</a></li>
+      <li><a href='2.html'>입시</a></li>
+      <li><a href='3.html'>자기개발</a></li>
+      <li><a href='HongganLab.html'>유튜브</a></li>
+    </ol>
+    <!-- # 부모 ul 테그는 반드시 자식 li 테그를 갖는다.(반대도 동일)
+    # ul은 점, ol은 번호 목록번호
+    # l=list, ol=ordered list, ul=unodered list
+    # table은 3대가 가치 다님: table, tr, td>
+    -->
+    <div id="article">
+      <h2>학원검색</h2> <!-- UTF-8형식 -->
+      <p>
+        The <strong><u>World Wide Web (WWW)</u></strong>, commonly known as the Web, is an information system where
+        documents and other web resources are identified by Uniform Resource Locators
+        (URLs, such as <a href='https://www.example.com/' target='_blank' title='example domain'>
+        https://www.example.com/</a>), which may be interlinked by hypertext,
+        and are accessible over the Internet. The resources of the WWW are transfered
+        via the <strong>Hypertext Transfer Protocol (HTTP)</strong> and may be accessed by users by a software
+        application called a web browser and are published by a software application called a web server.
+      </p><p style="margin-top:20px;">
+        English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first
+        web browser in 1990 while employed at CERN near Geneva, Switzerland.
+        The browser was released outside CERN in 1991, first to other research institutions
+        starting in January 1991 and then to the general public in August 1991. The World Wide
+        Web has been central to the development of the Information Age and is the primary tool
+        billions of people use to interact on the Internet.
+      </p>
+    </div>
+  </div>
 </body>
 </html>

@@ -2,9 +2,9 @@
 <html> <!-- 최고위층 테크-->
 <head>
   <!-- 본문을 설명 -->
-  <title>WEB1 - CSS</title>
+  <title>EDU - CSS</title>
   <meta charset='utf-8'>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <link rel="stylesheet" href="style.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156269513-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,31 +16,43 @@
 </head>
 <body>
   <!-- 아래부터 본문 -->
-  <h1><a href='index.html'>WEB</a></h1>
-  <ol>
-    <li><a href='1.html'>HTML</a></li>
-    <li><a href='2.html'>CSS</a></li>
-    <li><a href='3.html'>JavaScript</a></li>
-    <li><a href='HongganLab.html'>Teaching</a></li>
-  </ol>
-
-  <!-- # 부모 ul 테그는 반드시 자식 li 테그를 갖는다.(반대도 동일)
-  # ul은 점, ol은 번호 목록번호
-  # l=list, ol=ordered list, ul=unodered list
-  # table은 3대가 가치 다님: table, tr, td>
+  <h5> 교육정보 전문기업</h5>
+  <h1><a href='index.html'>이것이 교육이다</a></h1> <!--style 속성-->
+  <div id="grid">
+    <ol>
+      <li><a href='1.html'>교육정보</a></li>
+      <li><a href='2.html'>입시</a></li>
+      <li><a href='3.html'>자기개발</a></li>
+      <li><a href='HongganLab.html'>유튜브</a></li>
+    </ol>
+  <!--
+    <h1><a href='index.html'>WEB</a></h1>
+    <ol>
+      <li><a href='1.html'><font color="red">HTML</font></a></li>
+      <li><a href='2.html'><font color="red">CSS</font></a></li>
+      <li><a href='3.html'><font color="red">JavaScript</font></a></li>
+      <li><a href='HongganLab.html'><font color="red">Teaching</font></a></li>
+    </ol>
   -->
-
-  <h2>CSS</h2> <!-- UTF-8형식 -->
-  <p>
-    <strong><u>Cascading Style Sheets (CSS)</u></strong> is a style sheet language used for describing the presentation
-    of a document written in a markup language like HTML. CSS is a cornerstone technology of the
-    World Wide Web, alongside HTML and JavaScript.
-  </p><p style='margin-top:20px;'>
-    CSS is designed to enable the separation of presentation and content, including layout, colors,
-    and fonts. This separation can improve content accessibility, provide more flexibility
-    and control in the specification of presentation characteristics, enable multiple web pages
-    to share formatting by specifying the relevant CSS in a separate .css file, and reduce
-    complexity and repetition in the structural content.
-  </p>
-</body>
+    <!-- # 부모 ul 테그는 반드시 자식 li 테그를 갖는다.(반대도 동일)
+    # ul은 점, ol은 번호 목록번호
+    # l=list, ol=ordered list, ul=unodered list
+    # table은 3대가 가치 다님: table, tr, td>
+    -->
+    <div id="article">
+      <h2>입시</h2> <!-- UTF-8형식 -->
+      <p>
+        <strong><u>Cascading Style Sheets (CSS)</u></strong> is a style sheet language used for describing the presentation
+        of a document written in a markup language like HTML. CSS is a cornerstone technology of the
+        World Wide Web, alongside HTML and JavaScript.
+      </p><p style='margin-top:20px;'>
+        CSS is designed to enable the separation of presentation and content, including layout, colors,
+        and fonts. This separation can improve content accessibility, provide more flexibility
+        and control in the specification of presentation characteristics, enable multiple web pages
+        to share formatting by specifying the relevant CSS in a separate .css file, and reduce
+        complexity and repetition in the structural content.
+      </p>
+    </div>
+  </div>
+</bo0dy>
 </html>
